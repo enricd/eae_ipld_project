@@ -20,6 +20,10 @@
 
 ![Alt text](ipld_project_overview.png)
 
+- This web app to be done: https://eae-ipld-project.streamlit.app/
+  
+- A demo of a finished version of this project: https://eae-ipld-demo.streamlit.app/
+
 ## 0. Project Description
 
 This is the final project for the subject *Introduction to Programming Languages for Data*. The goal of this project is to apply the knowledge acquired during the course to a real-world problem. We could be applying this concepts into a normal Python file or a Jupyter Notebook, running only in our computers, but we are going to go a step further and create a web application that will be deployed in the cloud. But don't be scared! We will be using a very simple Python library called [Streamlit](https://www.streamlit.io/) that will allow us to create a web application with very little effort. What's more, the basic structure of it is already provided in this repository, so you only have to worry about filling some gaps with `Python`, `Numpy`, `Pandas` and `Matplotlib`, as we have seen in the course.
@@ -28,9 +32,9 @@ This project counts a `40%` of the final grade of the subject.
 
 The main steps of this project and their grades are:
 
-1. `60%` - Complete the 3 Notebook to develop every sub project. To start working with them, fork this repository and clone it in your computer using Git (or at least download it).
+1. `60%` - Complete the 3 Notebooks to develop every sub project. To start working with them, fork this repository and clone it in your computer using Git (or at least download it).
 
-2. `10%` - Complete the main page of the web application with your basic information and deploy the web application in the Streamlit Cloud.
+2. `10%` - Complete the main page of the web application with your basic information and deploy it in the Streamlit Cloud.
 
 3. `30%` - Complete the following 3 pages of the web application with the code logic that you developed on the Notebooks, then update the changes to the online version.
 
