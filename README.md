@@ -20,7 +20,7 @@
 
 ![Alt text](ipld_project_overview.png)
 
-- This web app to be done: https://eae-ipld-project.streamlit.app/
+- This web app (exercises to be done): https://eae-ipld-project.streamlit.app/
   
 - A demo of a finished version of this project: https://eae-ipld-demo.streamlit.app/
 
