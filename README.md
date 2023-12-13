@@ -41,7 +41,7 @@ The main steps of this project and their grades are:
 
 ## 1. Git and GitHub Setup
 
-Git is a version control system that allows us to keep track of the changes of our code and collaborate with other people. GitHub is a website that allows us to host our Git repositories online and collaborate with other people. We will be using both of them in this project. If you are not familiar with them, you can follow the next steps to set them up in your computer and create a GitHub account on its website.
+**Git** is a version control system that allows us to keep track of the changes of our code. Instead of having multiple copies of the same files with different changes, we keep a single file and Git tracks every new version that we develop, allowing us to go back in time to any previous or forward state of the code. **GitHub** is a website that allows us to host our Git repositories online and collaborate with other people. We will be using both of them in this project. If you are not familiar with them, you can follow the next steps to set them up in your computer and create a GitHub account on its website.
 
 1.1. **Download and install Git** in your computer (if you don't have it already). You can download it from [here](https://git-scm.com/downloads).
 
