@@ -31,7 +31,7 @@ st.divider()
 def load_data():
     data_path = "data/cities_temperatures.csv"
 
-    temps_df = None  # TODO: Ex 3.1: Load the dataset using Pandas, use the data_path variable and set the index column to "show_id"
+    temps_df = None  # TODO: Ex 3.1: Load the dataset using Pandas, use the data_path variable and set the index column to "show_id" Ex. 3.1. is asking in the comment to set the index column to "show_id" but that's an error copied from the 2nd project, you only need to put the data_path in the pd.read_csv() function, nothing else.Ex 3.1. I ask you to first load the dataset into a DataFrame, and after that to display its first 5 rows. So, make sure that the dataset is fully loaded into temps_df and you only apply the .head(5) to later display the 5 initial rows, but do not convert the temps_df DataFrame to only those 5 initial row
 
     if temps_df is not None:
         temps_df["Date"] = pd.to_datetime(temps_df["Date"]).dt.date

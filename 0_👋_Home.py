@@ -20,11 +20,11 @@ with st.sidebar:
 
 
 # ----- Top title -----
-st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is ????</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
+st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Chethan Balappa</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
 
 
 # ----- Profile image file -----
-profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+profile_image_file_path = "photo.img.jpeg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
 with open(profile_image_file_path, "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -39,7 +39,7 @@ st.write(f"""
 
 
 # ----- Personal title or short description -----
-current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+current_role = "Student"   # TODO: Change this
 
 st.write(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""", unsafe_allow_html=True)
 
@@ -51,17 +51,16 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a <Current Role and/or Studies> 
+- 🧑‍💻 I am  Student in EAE Business School, Currently doing my Master's Degree in Big Data and Analytics
 
-- 🛩️ prev: <Previous Experience, Background or Studies>
+- 🛩️ prev: I did My Bachelor's Degree in Civil Engineering and also I did Software developer Course so I have Knowledge on Java, SQL, HTML, CSS and Javascript
+- ❤️ Passio towards Software field
 
-- ❤️ <Your Passion and/or Interests>
+- 🤖 In my Engineering Final year, I did a project related to Civil Engineering known as Grey water and its Characteristics which was awarded a prize money as best project of the year
 
-- 🤖 <Your Personal Projects>
-
-- 🏂 <Your Hobbies>
-
-- 📫 How to reach me: <Your Email>
+- 🏂 My Hobbies are Playing Cricket, Listening Music and Playing Volley Ball
+- 📫 How to reach me: chethanb1609@gmail.com
+         
 
 - 🏠 Barcelona
 """)
