@@ -45,10 +45,10 @@ st.write("#")
 # TODO: Ex. 1.1: Get the minimum and maximum values for the vertical and horizontal ranges, so the size of the img_arr array -----
 
 min_height = 0 
-max_height = None   # TODO: Replace None with the maximum height of the image using np.shape() function
+max_height = img.height   # TODO: Replace None with the maximum height of the image using np.shape() function
 
 min_width = 0
-max_width = None    # TODO: Replace None with the maximum width of the image using np.shape() function   
+max_width = img.width    # TODO: Replace None with the maximum width of the image using np.shape() function   
 
 
 # ----- Creating the sliders to receive the user input with the dimensions to crop the image ----- 
@@ -70,16 +70,16 @@ else:
 
 # TODO: Ex. 1.3: Crop the image array img_arr using the crop_min_h, crop_max_h, crop_min_w and crop_max_w values -----
 
-crop_arr = None  # TODO: Generate the crop array into a new variable, use NumPy array slicing
+cropped_img_arr = img_arr[crop_min_h:crop_max_h, crop_min_w:crop_max_w]  # TODO: Generate the crop array into a new variable, use NumPy array slicing
 
 
 # ----- Displaying the cropped image and creating a download button to download the image -----
 
-if type(crop_arr) == np.ndarray:
-    st.image(crop_arr, caption="Cropped Image", use_column_width=True)
+if type(cropped_img_arr) == np.ndarray:
+    st.image(cropped_img_arr, caption="Cropped Image", use_column_width=True)
 
     buf = io.BytesIO()
-    Image.fromarray(crop_arr).save(buf, format="PNG")
+    Image.fromarray(cropped_img_arr).save(buf, format="PNG")
     cropped_img_bytes = buf.getvalue()
 
     cols2 = st.columns([4, 1, 4])
