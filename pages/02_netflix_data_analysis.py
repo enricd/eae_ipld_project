@@ -6,13 +6,6 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 
-# ----- Page configs -----
-st.set_page_config(
-    page_title="<Your Name> Portfolio",
-    page_icon="📊",
-)
-
-
 # ----- Left menu -----
 with st.sidebar:
     st.image("eae_img.png", width=200)

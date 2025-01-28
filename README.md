@@ -1,3 +1,5 @@
+![python-versions](https://img.shields.io/badge/python-3.9_|_3.10_|_3.11_|_3.12_|_3.13-blue)
+
 <div align="center">
 
 # EAE - Master In Big Data & Analytics
@@ -79,7 +81,7 @@ Alternatively, instead of doing the previous command directly, you can create a 
 ```bash
 cd <path/to/your/project_folder>
 python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate.bat
+source venv/bin/activate    # <- this is for Mac and Linux. On Windows: venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 

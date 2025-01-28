@@ -7,13 +7,6 @@ import io
 from PIL import Image
 
 
-# ----- Page configs -----
-st.set_page_config(
-    page_title="<Your Name> Portfolio",
-    page_icon="📊",
-)
-
-
 # ----- Left menu -----
 with st.sidebar:
     st.image("eae_img.png", width=200)
@@ -38,7 +31,7 @@ else:
         img_arr = np.array(img)
 
 # Displaying the image
-st.image(img_arr, caption="Original Image" if not is_example else "Original example image", use_column_width=True)
+st.image(img_arr, caption="Original Image" if not is_example else "Original example image", use_container_width=True)
 st.write("#")
 
 
