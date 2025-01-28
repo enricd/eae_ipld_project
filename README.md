@@ -92,12 +92,12 @@ You will find the instructions to complete the Notebooks in the top cell and in 
 
 This section is about completing the main page of the web application, trying to run it locally (with a simple command) and deploying it to the Streamlit Cloud. This will count a `10%` of the final grade of the project.
 
-In this step you will have to open the Python script of the main page of the web application called `0_👋_Home.py` and modify it accoring to your information in order to present yourself. You will find a `# TODO` comment in every line or section you have to modify, and some more explanation of it if needed in the comments as well. You have to replace the example texts to the your own information and replace the default profile image with one of yourself, uploading it to the main repository folder and changing the name of the file in the code if needed.
+In this step you will have to open the Python script of the main page of the web application called `home.py` and modify it accoring to your information in order to present yourself. You will find a `# TODO` comment in every line or section you have to modify, and some more explanation of it if needed in the comments as well. You have to replace the example texts to the your own information and replace the default profile image with one of yourself, uploading it to the main repository folder and changing the name of the file in the code if needed.
 
 After finishing all the updates on the main page (or while you are going though it), you can run the web application locally in your computer to see how it looks like. You can do it by running the following command in the terminal from the project folder (remember to activate the virtual environment if you created it and to have all the dependencies installed):
 
 ```bash
-streamlit run 0_👋_Home.py
+streamlit run home.py
 ```
 
 This will open a new tab in your browser with the web application running locally. Otherwise, you can copy and paste this url `http://localhost:8501` to see it. You can stop the execution of the web application by pressing `Ctrl + C` in your terminal or closing the terminal tab/window.
@@ -123,9 +123,9 @@ Finally, you can deploy the web application to the Streamlit Cloud. To do so:
 2. Then click on the *New app* button. 
 3. Select your GitHub repository of the project.
 4. Leave the branch as main 
-5. Set the *Main file path* to `0_👋_Home.py`
+5. Set the *Main file path* to `home.py`
 6. Modify the app URL to something short and with your username (e.g. `enricd.streamlit.app`). You can only modify the first part of the URL.
-7. Optionally, go to Advanced Settings to modify the Python Version of the app, by default it uses the Python 3.9. for now. But you can put any up to the 3.12. in the online app.
+7. Optionally, go to Advanced Settings to modify the Python Version of the app, by default it uses the Python 3.12 for now. But you can put any up to the 3.13 in the online app.
 8. Finally you can click on the *Deploy* button and wait for the deployment to finish. This may take a few minutes. After that you will be able to see your web application online at the URL you specified before.
 
 Now, after every new code change that we `git add .` and `git commit -m "Some message"` locally, and then `git push` to the online repository, the web application will be automatically updated in the Streamlit Cloud with those new changes, so everyone will be able to see the changes online at the URL you specified before.
@@ -139,9 +139,9 @@ This last part will count a `30%` of the final grade of the project, every page 
 
 The 3 pages that you have to complete are:
 
-- `10%` - `pages/1_🖼️_Image_Cropper.py`
-- `10%` - `pages/2_🎬_Netflix_Data_Analysis.py`
-- `10%` - `pages/3_🌦️_Temperatures_Dashboard.py`
+- `10%` - `pages/01_image_cropper.py`
+- `10%` - `pages/02_netflix_data_analysis.py`
+- `10%` - `pages/03_temperatures_dashboard.py`
 
 
 ## 5. Submit the Project
