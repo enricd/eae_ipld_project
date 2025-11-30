@@ -1,4 +1,4 @@
-![python-versions](https://img.shields.io/badge/python-3.9_|_3.10_|_3.11_|_3.12_|_3.13-blue)
+![python-versions](https://img.shields.io/badge/python-_3.11_|_3.12_|_3.13_|_3.14_-blue)
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 ### Author: *Your Name Here*
 
-### Date: Jan-Feb 2025
+### Date: Dec 2025
 
 ### Instructor: Enric Domingo - [/enricd](https://github.com/enricd)
 
@@ -25,6 +25,18 @@
 - The deployed web app of this specific repository with its current uncompleted state (exercises to be done): https://eae-ipld-project.streamlit.app/
   
 - A demo of a finished version of this project: https://eae-ipld-demo.streamlit.app/
+
+---
+## Table of Contents
+
+0. [Project Description](#0-project-description)
+1. [Git and GitHub Setup](#1-git-and-github-setup)
+2. [Develop the Projects' logic in the Notebooks](#2-develop-the-projects-logic-in-the-notebooks)
+3. [Complete the Main Page of the Web Application and deploy it](#3-complete-the-main-page-of-the-web-application-and-deploy-it-to-streamlit-cloud)
+4. [Complete the Web Application](#4-complete-the-web-application-and-update-the-changes-to-the-online-version)
+5. [Submit the Project](#5-submit-the-project)
+
+---
 
 ## 0. Project Description
 
@@ -146,7 +158,7 @@ The 3 pages that you have to complete are:
 
 ## 5. Submit the Project
 
-The submission deadline for the project is the **2nd of March 2025 at 23:59h**. You can either submit the link of your public GitHub repository and the link of your deployed web application in a message of the Online Classroom Assignment of the Final Project. If you only completed the Notebooks you can also send the link to your GitHub repository with them completed or submit a zip file with them.
+The submission deadline for the project is the **30th of December 2025 at 23:59h**. You can either submit the link of your public GitHub repository and the link of your deployed web application in a message of the Online Classroom Assignment of the Final Project. If you only completed the Notebooks you can also send the link to your GitHub repository with them completed or submit a zip file with them.
 
 We can solve any question and go through some of the initial configurations of the project in the following classes, or you can ask in the Online Classroom Forum of the subject or by email to the subject instructor.
 

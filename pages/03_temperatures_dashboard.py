@@ -72,7 +72,7 @@ st.header("Basic Information")
 
 cols1 = st.columns([4, 1, 6])
 if unique_countries_list is not None:
-    cols1[0].dataframe(pd.Series(unique_countries_list, name="Cities"), use_container_width=True)
+    cols1[0].dataframe(pd.Series(unique_countries_list, name="Cities"), width="content")
 else:
     cols1[0].write("⚠️ You still need to develop the Ex 3.3.")
 

@@ -15,13 +15,13 @@ def home_page():
         st.image("eae_img.png", width=200)
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
-        st.write("***Final Project - Feb 2025***")
+        st.write("***Final Project - Dec 2025***")
         st.write("**Author:** <Your Name>")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is ????</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Python</h1></div>""")  # TODO: Add your name
 
 
     # ----- Profile image file -----

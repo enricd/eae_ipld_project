@@ -31,7 +31,7 @@ else:
         img_arr = np.array(img)
 
 # Displaying the image
-st.image(img_arr, caption="Original Image" if not is_example else "Original example image", use_container_width=True)
+st.image(img_arr, caption="Original Image" if not is_example else "Original example image", width="content")
 st.write("#")
 
 
