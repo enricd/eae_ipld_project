@@ -21,7 +21,7 @@ def home_page():
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Python</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Enric</h1></div>""")  # TODO: Add your name
 
 
     # ----- Profile image file -----
@@ -52,7 +52,7 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-    - 🧑‍💻 I am a <Current Role and/or Studies> that you are doing
+    - 🧑‍💻 I am a ML Eng that you are doing
 
     - 🛩️ prev: <Previous Experience, Background or Studies>
 
