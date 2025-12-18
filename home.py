@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="Oriol Faus Portfolio",
     page_icon="📊",
 )
 
@@ -16,16 +16,16 @@ def home_page():
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
         st.write("***Final Project - Dec 2025***")
-        st.write("**Author:** <your name> ")
+        st.write("**Author:** Oriol Faus Galtés")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Python</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Oriol</h1></div>""")
 
 
     # ----- Profile image file -----
-    profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+    profile_image_file_path = "profile.jpeg"
 
     with open(profile_image_file_path, "rb") as img_file:
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -34,13 +34,13 @@ def home_page():
     # ----- Your Profile Image -----
     st.html(f"""
     <div style="display: flex; justify-content: center;">
-        <img src="{img}" alt="Your Name" width="300" height="300" style="border-radius: 50%; object-fit: cover; margin-top: 40px; margin-bottom: 40px;">
+        <img src="{img}" alt="Oriol Faus Galtés" width="300" height="300" style="border-radius: 50%; object-fit: cover; margin-top: 40px; margin-bottom: 40px;">
     </div>
     """)
 
 
     # ----- Personal title or short description -----
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+    current_role = "Software developer<br>Student of MSc: Big data and Analytics"
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
@@ -50,19 +50,18 @@ def home_page():
     # ----- About me section -----
     st.subheader("About Me")
 
-    # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-    - 🧑‍💻 I am a <Current Role and/or Studies> that you are doing
+    - 🧑‍💻 I am a Software developer at Adiquímica S.A
+             
+    - 🛩️ Bachelor's degree in Bioinformatics (ESCI UPF)
 
-    - 🛩️ prev: <Previous Experience, Background or Studies>
+    - ❤️ Passionate about sports, specially football, and music!
 
-    - ❤️ <Your Passion and/or Interests>
+    - 🤖 Don't have any personal projects at the moment.
 
-    - 🤖 <Your Personal Projects>
+    - 🏂 Football, cycling, running, music, concerts, ...
 
-    - 🏂 <Your Hobbies>
-
-    - 📫 How to reach me: <Your Email>
+    - 📫 How to reach me: ofausg@student.eae.es
 
     - 🏠 Barcelona
     """)
