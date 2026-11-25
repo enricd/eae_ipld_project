@@ -12,7 +12,7 @@
 
 ### Author: *Your Name Here*
 
-### Date: Dec 2025
+### Date: Nov 2026
 
 ### Instructor: Enric Domingo - [/enricd](https://github.com/enricd)
 
@@ -158,7 +158,7 @@ The 3 pages that you have to complete are:
 
 ## 5. Submit the Project
 
-The submission deadline for the project is the **30th of December 2025 at 23:59h**. You can either submit the link of your public GitHub repository and the link of your deployed web application in a message of the Online Classroom Assignment of the Final Project. If you only completed the Notebooks you can also send the link to your GitHub repository with them completed or submit a zip file with them.
+The submission deadline for the project is the **10th of January 2027 at 23:59h**. You can either submit the link of your public GitHub repository and the link of your deployed web application in a message of the Online Classroom Assignment of the Final Project. If you only completed the Notebooks you can also send the link to your GitHub repository with them completed or submit a zip file with them.
 
 We can solve any question and go through some of the initial configurations of the project in the following classes, or you can ask in the Online Classroom Forum of the subject or by email to the subject instructor.
 

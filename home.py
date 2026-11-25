@@ -15,7 +15,7 @@ def home_page():
         st.image("eae_img.png", width=200)
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
-        st.write("***Final Project - Dec 2025***")
+        st.write("***Final Project - Nov 2026***")
         st.write("**Author:** <your name> ")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
